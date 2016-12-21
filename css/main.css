@@ -1,0 +1,188 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: Sans-Serif;
+}
+h1 { font-size: 200%;}
+h2 { font-size: 180%;}
+h3 { font-size: 160%;}
+h4 { font-size: 140%;}
+h5 { font-size: 120%;}
+h6 { font-size: 100%;}
+
+p {
+  font-family: Serif;
+}
+
+body {
+
+  margin: 0px;
+}
+
+#wrapper{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+}
+#header {
+  background-color: #122512;
+  height:86px;
+  line-height:86px;
+}
+#logo {
+  width: 367px;
+  float: left;
+}
+#logo a{
+  color:#F4E9E9;
+  font-size:30px;
+  
+}
+
+#logo img{
+  height:70px;
+  width:70px;
+  padding-top:5px;
+  padding-left: 5px;
+}
+
+#menu{
+width:562px;
+float:left;
+text-align:right;
+padding-right:31px
+}
+
+#menu a{
+  font-family:Sans-serif;
+  font-size:20px;
+  color:#F4E9E9;
+}
+
+#menu li{
+     display:inline;
+   }
+#menu ul {
+
+     margin: 0px;
+     padding: 0px;
+
+}
+
+#banner {
+  background-color:red;
+  margin-top: 0px;
+  background-image: url("../img/hero.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: 0px;
+  height: 366px;
+  line-height: 366px;
+  padding-left: 31px;
+  padding-right: 31px;
+  clear:both;
+}
+#banner h1{
+  margin:31px;
+}
+#title{
+
+  color:blue;
+  position:absolute;
+  text-align:center;
+  top: 50%;
+  font-size: 20px;
+
+}
+
+#three {
+  background-color: #633725;
+  margin-top: 2px;
+  height: 593px;
+  clear:both;
+
+}
+.info {
+  background-color: #B06141;
+  border-radius: 5px;
+  width: 24.5%;
+  height: 520px;
+  margin: 25px;
+  padding:15px 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#registerform{
+  width:50%;
+  float:left;
+}
+#loginform{
+  width:50%;
+  float:right;
+}
+
+#login{
+  padding:31px 31px 31px 31px;
+  border: #999999 1px solid;
+  width:400px;
+  height:367px;
+  margin-top:113px;
+  margin-bottom:113px;
+  margin-left:auto;
+  margin-right:auto;
+  float:left;
+}
+#register{
+  padding:31px 31px 31px 31px;
+  border: #999999 1px solid;
+  width:400px;
+  height:593px;
+  margin-top:113px;
+  margin-bottom:113px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#contactform h1{
+  color:#122512;
+}
+#username{
+  width:367px;
+  height:33px;
+}
+#firstname{
+  width:367px;
+  height:33px;
+}
+#lastname{
+  width:367px;
+  height:33px;
+}
+#password{
+  width:367px;
+  height:33px;
+}
+#email{
+  width:367px;
+  height:33px;}
+#submit{
+  width:140px;
+  height:33px;
+  background-color:#7B8B84;
+}
+#confirmpassword{
+  width:367px;
+  height:33px;
+}
+
+
+#table,th,td{
+  border:1px solid;
+  border-collapse:collapse;
+  padding:15px;
+}
+#profileform{
+  width:573px;
+  height:960px;
+  margin-left:auto;
+  margin-right:auto;
+}
