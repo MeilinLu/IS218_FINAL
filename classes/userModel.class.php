@@ -12,7 +12,7 @@
         $stmt->execute(array('username' => $username));
 	return $stmt->fetch();
       }catch(PDOException $e) {
-        echo '<p class="bg-danger">'.$e->getMessage().'</p>';
+        echo $e->getMessage();
       }
     }
 
@@ -24,7 +24,7 @@
         $stmt->execute(array('username' => $username));
 	return $stmt->fetch();
       }catch(PDOException $e) {
-        echo '<p class="bg-danger">'.$e->getMessage().'</p>';
+        echo $e->getMessage();
       }
     }
 

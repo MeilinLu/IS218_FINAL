@@ -1,5 +1,4 @@
-<?php
-
+<?php 
   class userTableView {
 
      public function getHTML($errors='') {
