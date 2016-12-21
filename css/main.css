@@ -24,7 +24,7 @@ body {
   border: 1px solid;
 }
 #header {
-  background-color: #122512;
+  background-color: #DA4248;
   height:86px;
   line-height:86px;
 }
@@ -167,7 +167,7 @@ padding-right:31px
 #submit{
   width:140px;
   height:33px;
-  background-color:#7B8B84;
+  background-color:#F49483;
 }
 #confirmpassword{
   width:367px;
